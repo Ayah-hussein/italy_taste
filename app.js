@@ -1,18 +1,27 @@
+
+
+
+
+
+
+
+
+
+
+
 var order= prompt ("do you want pizza or Pasta?");
 
-while (order !== "pasta" && order !== "pizza")
+IF (order == "pasta") {
+
+    alert ("this is not availabe now");
+}
+else
+
 {
 
-    order= prompt("do you want pizza or Pasta?");
+    alert ("welcome to our resturant");
 }
-var itemorder ='';
-if (order == "pasta"){
 
-itemorder ='<img src="complete meals italian21765.jpg">'; 
-}
-else if (order == "pizza"){
 
-    itemorder= '<img src="download.jpg"/>';
-}
 
 
