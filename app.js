@@ -4,9 +4,9 @@ var name = prompt ("type your name please :");
 var ask = prompt ("what is the best italian dish for you?");
 var choose = prompt ("enter number of dishes? ");
 
-console.log('your name is:' + name);
-console.log('your best italian dish is:' + ask);
-document.write('<p>your name: '+ name + ' , ' + ' and your favorite dish is : '+ ask +  '</p>' );
+console.log('Your name is:' + name);
+console.log('Your best italian dish is:' + ask);
+document.write('<p>Your name IS : '+ name + ' , ' + ' and Your favorite dish is : '+ ask +  '</p>' );
 
 if (choose == false) 
 {
@@ -16,7 +16,7 @@ if (choose == false)
 else
 {
      console.log('you orderd ' + choose + 'dishes');
-     document.write("number of dishes you enterd is: " + choose);
+  
 
 }
 
@@ -46,6 +46,7 @@ function nameUser () {
 function order(){
   
 var order= prompt ("do you want pizza or Pasta?");
-console.log ('your dish is : ' + order);
+
+console.log ('Your dish is : ' + order );
 
 }

@@ -1,0 +1,49 @@
+body {
+    background-color: antiquewhite;
+    width:900px;
+    margin: auto;
+}
+.iti
+{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-align: center;
+}
+header nav ul li {
+    display:inline;
+    float: right;
+    word-spacing: 10px;
+}
+
+.edi {
+
+    line-height: 10px ;
+}
+
+.control {
+    height: 450px;
+     width:900px ; 
+}
+.demo {
+    font-weight: bolder;
+    text-align: center;
+    line-height: 40px;
+    text-decoration: aquamarine;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+footer {
+background-color: rgb(211, 89, 150);
+text-align: center;
+font-size: 20px;
+margin: 0px;
+padding: 0px;
+height: 30px;
+}
+.gree {
+    text-shadow: brown;
+    text-decoration-style: dotted;
+    font-size: 25px;
+    font-weight: bolder;
+
+
+}
